@@ -1,16 +1,68 @@
-# to_do_list_app
+# 📝 Flutter To-Do App
 
-A new Flutter project.
+A simple and clean To-Do list application built using **Flutter**.  
+This project focuses on UI and basic task management features — **no backend required**.
 
-## Getting Started
+---
 
-This project is a starting point for a Flutter application.
+## 🚀 Features
 
-A few resources to get you started if this is your first Flutter project:
+- Add new tasks  
+- Mark tasks as completed  
+- Delete tasks  
+- Clean & simple UI  
+- Works on Android, iOS, and Web  
 
-- [Lab: Write your first Flutter app](https://docs.flutter.dev/get-started/codelab)
-- [Cookbook: Useful Flutter samples](https://docs.flutter.dev/cookbook)
+---
 
-For help getting started with Flutter development, view the
-[online documentation](https://docs.flutter.dev/), which offers tutorials,
-samples, guidance on mobile development, and a full API reference.
+## 🛠️ Tech Stack
+
+- **Flutter**  
+- **Dart**
+
+---
+
+## 📂 Project Structure
+
+```
+lib/
+ ├── main.dart
+ ├── screens/
+ │    └── home_screen.dart
+ ├── widgets/
+ │    └── task_tile.dart
+ └── models/
+      └── task.dart
+```
+
+---
+
+## ▶️ How to Run the Project
+
+Ensure Flutter SDK is installed.
+
+```sh
+flutter pub get
+flutter run
+```
+
+---
+
+## 📌 Future Enhancements
+
+- Add database (SQLite / Hive)  
+- Add backend (Spring Boot + MySQL)  
+- Add user login  
+- Add notifications & reminders  
+
+---
+
+## 🤝 Contributing
+
+Feel free to fork the repo and send pull requests.
+
+---
+
+## 📧 Contact
+
+If you want help integrating backend later, feel free to reach out!
