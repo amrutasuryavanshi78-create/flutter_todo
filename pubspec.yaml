@@ -1,0 +1,21 @@
+name: to_do_list_app
+description: A simple To-Do List app with reminders
+
+environment:
+  sdk: '>=3.0.0 <4.0.0'
+
+dependencies:
+  flutter:
+    sdk: flutter
+  intl: ^0.19.0
+  flutter_local_notifications: ^17.2.1
+  timezone: ^0.9.3
+  flutter_native_timezone: ^2.0.0
+  http: ^1.2.3
+
+dev_dependencies:
+  flutter_test:
+    sdk: flutter
+
+flutter:
+  uses-material-design: true
